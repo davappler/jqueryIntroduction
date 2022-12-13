@@ -10,3 +10,5 @@ alertButtonEl.on('click', function () {
     alert('Hello World');
   });
 $('body').css({ 'background-color': 'red'});
+var firstNameEl = $('input[name="first-name"]');
+firstNameEl.val()

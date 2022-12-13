@@ -10,3 +10,5 @@ alertButtonEl.addEventListener('click', function () {
     alert('Hello World');
   });
 document.querySelector("body").setAttribute("style", "background-color:red;");
+var firstNameEl = document.querySelector('input[name="first-name"]');
+firstNameEl.value
