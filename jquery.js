@@ -9,3 +9,4 @@ var alertButtonEl = $('#alert-btn');
 alertButtonEl.on('click', function () {
     alert('Hello World');
   });
+$('body').css({ 'background-color': 'red'});

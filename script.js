@@ -9,3 +9,4 @@ var alertButtonEl = document.querySelector('#alert-btn');
 alertButtonEl.addEventListener('click', function () {
     alert('Hello World');
   });
+document.querySelector("body").setAttribute("style", "background-color:red;");
